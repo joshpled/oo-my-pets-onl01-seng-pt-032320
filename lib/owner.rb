@@ -44,7 +44,7 @@ class Owner
   end
 
   def walk_dogs
-    puts self.dogs[0]
+    puts self.dogs[0].name
   end
 
 end
