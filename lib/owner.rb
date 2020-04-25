@@ -44,9 +44,7 @@ class Owner
   end
 
   def walk_dogs
-    puts self.dogs.each do |dog|
-          a = dog
-        end 
+    puts self.dogs[0]
   end
 
 end
