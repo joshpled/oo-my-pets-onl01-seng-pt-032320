@@ -54,8 +54,11 @@ class Owner
   def sell_pets
     self.dogs[0].mood = "nervous"
     self.cats[0].mood = "nervous"
+    self.dogs[0].owner = ''
+    self.cats[0].owner = ''
     self.cats.clear
     self.dogs.clear
+
   end
 
 end
