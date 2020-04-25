@@ -44,7 +44,11 @@ class Owner
   end
 
   def walk_dogs
-    puts self.dogs[0].mood = "happy"
+    self.dogs[0].mood = "happy"
+  end
+
+  def feed_cats
+    self.cats[0].mood = "happy"
   end
 
 end
