@@ -44,7 +44,7 @@ class Owner
   end
 
   def walk_dogs
-    self.dogs
+    a = self.dogs
   end
 
 end
