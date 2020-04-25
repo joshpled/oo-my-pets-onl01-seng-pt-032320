@@ -58,7 +58,6 @@ class Owner
     self.cats[0].owner = nil
     self.cats.clear
     self.dogs.clear
-
   end
 
 end
