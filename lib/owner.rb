@@ -44,7 +44,7 @@ class Owner
   end
 
   def walk_dogs
-    Dogs.all = "happy"
+    Dog.dogs
   end
 
 end
